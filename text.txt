@@ -41,7 +41,26 @@ javascript 와 css HTML은 나눠서 쓰자 각자 역할에 맞게
 style에는 CSS
 animation에는 JS
 
+event.preventDefault(); 는 이벤트를
+브라우저를 통채로 멈추지 않게 일시정지해준다.
 
+setInterval(function, A000);
+밀리세컨트
+함수를 A초마다 반복한다는 의미.
+바로 실행 X
+A초 후 첫 시작이 되고 A초마다 계속 반복된다.
+
+setTimeout(function, A000);
+A초 기다렸다가 한번만 실행.
+
+new Date().toLocaleTimeString();
+오후 xx : xx : xx 로 표기해줌
+
+명언 api 적용완료
+
+AJAX로 JSON 형식 값을 받아와서 해당 JSON데이터에서
+원하는 부분의 배열만 가져오고 다시 String으로 변환해서
+명언을 가져왔다!
 
 
 
