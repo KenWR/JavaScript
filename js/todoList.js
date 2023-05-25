@@ -84,7 +84,6 @@ function resetTodoList(event){
     const hours = today.getHours();
     const minutes = today.getMinutes();
     const seconds = today.getSeconds();
-    console.log(hours);
     if(hours === 0 && minutes === 0 && seconds === 0){
         todoThings = [];
         saveTodoThings()
