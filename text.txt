@@ -62,6 +62,16 @@ AJAX로 JSON 형식 값을 받아와서 해당 JSON데이터에서
 원하는 부분의 배열만 가져오고 다시 String으로 변환해서
 명언을 가져왔다!
 
+console.dir(event.target);
+ 은 정말 많은 정보를 알수있다.
+
+자동입력이 안되도 겁먹지말고 지르자
+
+The forEach() method executes a provided function once for each array element.
+자바스크립트에서 forEach() 는 배열이라는 탄창으로 함수를 쏘는거다.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+
 
 
 
